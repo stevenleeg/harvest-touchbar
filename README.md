@@ -57,5 +57,5 @@ looking to implement a feature, please open an issue before creating a PR so I
 can review it and make sure it's something that should be added.
 
 ## License
-This project is released under the GNU General Public License v3.0. See
-LICENSE.txt for more information.
+This project is released under the MIT License. See LICENSE.txt for more
+information.
