@@ -64,7 +64,7 @@ def toggle_latest
   puts JSON.generate({
     text: "#{hours}:#{minutes.to_s.rjust(2, '0')}",
     background_color: '0, 0, 0, 0',
-    icon_path: icon_path(active: latest['is_running']), 
+    icon_path: icon_path(active: !latest['is_running']), 
   })
 end
 
