@@ -1,6 +1,6 @@
 # Harvest for Touchbar
 This is a simple script for [BetterTouchTool](https://folivora.ai/) which
-allows users to control their currently active timer on [Harvest](harvestapp.com).
+allows users to control their currently active timer on [Harvest](https://www.getharvest.com/).
 
 ![Harvest for Touchbar in action](https://i.imgur.com/6lh8MXv.jpg)
 
