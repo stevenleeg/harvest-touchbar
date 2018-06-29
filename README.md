@@ -50,3 +50,12 @@ in clipboard":
 
 *Voilà!* You should now have a functional Harvest widget in your touchbar. Give
 it a tap to start/stop your latest timer.
+
+## Contributing
+Please feel free to open an issue or PR if you've found a bug. If you're
+looking to implement a feature, please open an issue before creating a PR so I
+can review it and make sure it's something that should be added.
+
+## License
+This project is released under the GNU General Public License v3.0. See
+LICENSE.txt for more information.
