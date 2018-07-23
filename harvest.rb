@@ -20,10 +20,14 @@ def icon_path(active:)
 end
 
 def get_latest_timer
-  resp = generate_request
-    .get('https://api.harvestapp.com/v2/time_entries', params: {
-      from: Date.today.to_s
-    })
+  begin
+    resp = generate_request
+      .get('https://api.harvestapp.com/v2/time_entries', params: {
+        from: Date.today.to_s
+      })
+  rescue HTTP::ConnectionError
+    return nil
+  end
 
   json = JSON.parse(resp.body)
 
