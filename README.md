@@ -39,7 +39,7 @@ Finally we'll generate a JSON configuration snippet used to add the widget to BT
 and copy it into your system clipboard:
 
 ```
-$ ruby harvest.rb | pbcopy
+$ ruby harvest.rb -j | pbcopy
 ```
 
 Once copied, you can open BTT's touchbar configuration screen and add the
